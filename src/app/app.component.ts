@@ -1,5 +1,5 @@
 import { Component, OnInit, ViewChild } from "@angular/core";
-import { Chart } from "chart.js";
+import { productSales, productSalesMulti } from "./pages/ngxcharts/data/products";
 
 @Component({
   selector: "app-root",
@@ -7,5 +7,5 @@ import { Chart } from "chart.js";
   styleUrls: ["./app.component.scss"],
 })
 export class AppComponent {
-  title: 'blad'
+
 }
