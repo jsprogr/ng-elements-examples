@@ -10,9 +10,11 @@ import { BubbleChartComponent } from './components/bubble-chart/bubble-chart.com
 import { GaugeChartComponent } from './components/gauge-chart/gauge-chart.component';
 import { HeatMapComponent } from './components/heat-map/heat-map.component';
 import { LinearGaugeChartComponent } from './components/linear-gauge-chart/linear-gauge-chart.component';
+import { NumberCardComponent } from './components/number-card/number-card.component';
+import { PolarRadarComponent } from './components/polar-radar/polar-radar.component';
 
 @NgModule({
-  declarations: [ChartsComponent, BarChartsComponent, LineAreaChartsComponent, BubbleChartComponent, GaugeChartComponent, HeatMapComponent, LinearGaugeChartComponent],
+  declarations: [ChartsComponent, BarChartsComponent, LineAreaChartsComponent, BubbleChartComponent, GaugeChartComponent, HeatMapComponent, LinearGaugeChartComponent, NumberCardComponent, PolarRadarComponent],
   imports: [
     CommonModule,
     NgxchartsRoutingModule,

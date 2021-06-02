@@ -7,6 +7,8 @@ import { GaugeChartComponent } from './components/gauge-chart/gauge-chart.compon
 import { HeatMapComponent } from './components/heat-map/heat-map.component';
 import { LineAreaChartsComponent } from './components/line-area-charts/line-area-charts.component';
 import { LinearGaugeChartComponent } from './components/linear-gauge-chart/linear-gauge-chart.component';
+import { NumberCardComponent } from './components/number-card/number-card.component';
+import { PolarRadarComponent } from './components/polar-radar/polar-radar.component';
 
 const routes: Routes = [
   { path: "", component: ChartsComponent },
@@ -16,6 +18,8 @@ const routes: Routes = [
   { path: "gauge", component: GaugeChartComponent },
   { path: "hitmap", component: HeatMapComponent },
   { path: "linear-gauge", component: LinearGaugeChartComponent },
+  { path: "num-card", component: NumberCardComponent },
+  { path: "polar-radar", component: PolarRadarComponent },
 ];
 
 @NgModule({
