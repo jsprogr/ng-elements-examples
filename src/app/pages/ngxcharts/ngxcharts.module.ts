@@ -12,9 +12,11 @@ import { HeatMapComponent } from './components/heat-map/heat-map.component';
 import { LinearGaugeChartComponent } from './components/linear-gauge-chart/linear-gauge-chart.component';
 import { NumberCardComponent } from './components/number-card/number-card.component';
 import { PolarRadarComponent } from './components/polar-radar/polar-radar.component';
+import { PieComponent } from './components/pie/pie.component';
+import { TreeMapComponent } from './components/tree-map/tree-map.component';
 
 @NgModule({
-  declarations: [ChartsComponent, BarChartsComponent, LineAreaChartsComponent, BubbleChartComponent, GaugeChartComponent, HeatMapComponent, LinearGaugeChartComponent, NumberCardComponent, PolarRadarComponent],
+  declarations: [ChartsComponent, BarChartsComponent, LineAreaChartsComponent, BubbleChartComponent, GaugeChartComponent, HeatMapComponent, LinearGaugeChartComponent, NumberCardComponent, PolarRadarComponent, PieComponent, TreeMapComponent],
   imports: [
     CommonModule,
     NgxchartsRoutingModule,
