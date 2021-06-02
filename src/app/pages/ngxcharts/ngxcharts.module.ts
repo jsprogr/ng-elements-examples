@@ -25,3 +25,5 @@ import { TreeMapComponent } from './components/tree-map/tree-map.component';
   ],
 })
 export class NgxchartsModule {}
+
+// .https://swimlane.gitbook.io/ngx-charts/examples
