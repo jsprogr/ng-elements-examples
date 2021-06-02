@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-import { Routes, RouterModule } from "@angular/router";
+import { Routes, RouterModule, PreloadAllModules, NoPreloading } from "@angular/router";
 import { AppComponent } from "./app.component";
 
 const routes: Routes = [
@@ -25,10 +25,11 @@ const routes: Routes = [
     loadChildren: () =>
       import("./pages/d3charts/d3charts.module").then(m => m.D3chartsModule),
   },
+  { path: 'ng-animations', loadChildren: () => import('./pages/ng-animations/ng-animations.module').then(m => m.NgAnimationsModule) },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { preloadingStrategy: NoPreloading})],
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
