@@ -27,6 +27,7 @@ const routes: Routes = [
   },
   { path: 'ng-animations', loadChildren: () => import('./pages/ng-animations/ng-animations.module').then(m => m.NgAnimationsModule) },
   { path: 'webrtc', loadChildren: () => import('./pages/webrtc-av/webrtc-av.module').then(m => m.WebrtcAvModule) },
+  { path: 'file-handlers', loadChildren: () => import('./pages/ng-files/file-handler.module').then(m => m.FileHandlerModule) },
 ];
 
 @NgModule({

@@ -23,3 +23,6 @@ import { ChatComponent } from './components/chat/chat.component';
   ],
 })
 export class WebrtcAvModule {}
+
+
+/* TODO: add text chat, devices selection, data transfer */
