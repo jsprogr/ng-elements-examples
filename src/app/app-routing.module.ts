@@ -26,6 +26,7 @@ const routes: Routes = [
       import("./pages/d3charts/d3charts.module").then(m => m.D3chartsModule),
   },
   { path: 'ng-animations', loadChildren: () => import('./pages/ng-animations/ng-animations.module').then(m => m.NgAnimationsModule) },
+  { path: 'webrtc', loadChildren: () => import('./pages/webrtc-av/webrtc-av.module').then(m => m.WebrtcAvModule) },
 ];
 
 @NgModule({
